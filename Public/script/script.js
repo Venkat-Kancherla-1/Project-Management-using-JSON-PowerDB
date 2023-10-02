@@ -3,7 +3,7 @@ var jpdbIRL = '/api/irl';
 var jpbdIML = '/api/iml';
 var DatabaseName = 'Project-Management';
 var RelationName = 'Projects-table';
-var connectionToken = '90931650|-31949326910509470|90961442';
+var connectionToken = process.env.connectionToken;
 
 $('#projid').focus();
 
